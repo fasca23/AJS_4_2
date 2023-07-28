@@ -13,7 +13,7 @@ test.each([
   expect(result).toBe(expectedResult);
 });
 
-test('test sorting feature', () => {
+test('проверка сортировки', () => {
   const objectList = [
     { name: 'мечник', health: 20 },
     { name: 'леший', health: 100 },
